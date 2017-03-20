@@ -2,16 +2,13 @@ package edu.hackeru;
 
 import java.util.Arrays;
 
-/**
- * Created by hackeru on 20/03/2017.
- */
 public class Movie {
     //properties
-    String title;
-    String image;
-    double rating;
-    int releaseYear;
-    String genre[];
+    private String title;
+    private String image;
+    private double rating;
+    private int releaseYear;
+    private String genre[];
 
     //empty constructor
     public Movie() {
